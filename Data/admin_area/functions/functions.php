@@ -1,6 +1,6 @@
 <?php 
 
- $db=mysqli_connect("localhost","root","","ecom");
+ $db=mysqli_connect("mysqlserver","root","password","ecom");
  function getPro()
  {
  	global $db; 
